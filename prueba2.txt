@@ -1,0 +1,23 @@
+/************************
+ * Fichero de prueba nº 2
+ ************************/
+void prueba2(){
+    // Declaraciones
+    const n =10;
+    var suma = 0;
+    var r = 0;
+    var i=0;
+    var a ,b;
+    print "Introduce dos numeros: ";
+    read a, b;
+    r=a/b;
+    print "a / b = ", r, "\n";
+    do{
+        // Entramos en el bucle
+        
+        i = i + 2;
+        suma = suma + i;
+        print "Numero par -> ",i,"\n";
+    } while(i-n);
+    print "La suma de los primeros numeros pares es: ",suma,"\n";
+}
